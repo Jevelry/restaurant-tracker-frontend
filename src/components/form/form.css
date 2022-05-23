@@ -1,0 +1,22 @@
+.main {
+    margin: auto;
+    padding: 10px;
+}
+.box-input {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.button-wrapper {
+    margin: 2%;
+}
+
+.text {
+    line-height: 5px;
+    font-size: 15px;
+}
+.title {
+    color: rgb(29, 225, 225);
+    font-size: 250%;
+}
