@@ -114,8 +114,10 @@ const Form = ({setOpen}) =>  {
                                             <MenuItem value={'Jarrod'}>Jarrod</MenuItem>
                                             <MenuItem value={'Jeff'}>Jeff</MenuItem>
                                             <MenuItem value={'Kevin'}>Kevin</MenuItem>
+                                            <MenuItem value={'Lucy'}>Lucy</MenuItem>
                                             <MenuItem value={'Nigel'}>Nigel</MenuItem>
                                             <MenuItem value={'Zac'}>Zac</MenuItem>
+                                            
 
                                         </Select>
                                 </FormControl>
