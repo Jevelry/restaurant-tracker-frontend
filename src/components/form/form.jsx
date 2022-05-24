@@ -3,7 +3,7 @@ import {useNavigate} from 'react-router-dom';
 import React from "react";
 import './form.css'
 import Box from '@mui/material/Box';
-
+import { Link } from "react-router-dom";
 import TextField from '@mui/material/TextField';
 import { Grid, Paper,Typography } from '@mui/material';
 import MenuItem from '@mui/material/MenuItem';
@@ -124,13 +124,25 @@ const Form = ({setOpen}) =>  {
  
                     </Grid>
                     <div className='button-wrapper'>
-                        <Button size="large" 
-                                variant="contained"
-                                color="success"
-                                onClick={handleSubmit(onSubmit)}
-                                >
-                                <p className='text'>Submit</p>
-                        </Button>
+                        <div className="button">
+                            <Button size="large" 
+                                    variant="contained"
+                                    color="success"
+                                    onClick={handleSubmit(onSubmit)}
+                                    >
+                                    <p className='text'>Submit</p>
+                            </Button>
+                        </div>
+                        <div className="button">
+                            <Link to={'/'}style={{ textDecoration: 'none' }}>
+                                <Button size="large" 
+                                        variant="contained"
+                                        color="error"
+                                        >
+                                        <p className='text'>Cancel</p>
+                                </Button>
+                            </Link>
+                        </div>
                     </div>
                 </Box>  
              </Paper>

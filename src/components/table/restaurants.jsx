@@ -10,6 +10,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { styled } from '@mui/material/styles';
 import './restaurants.css'
+import { Button } from '@mui/material';
 const Restaurants = () =>  {
 
     const StyledTableCell = styled(TableCell)(({ theme }) => ({
@@ -55,6 +56,11 @@ const Restaurants = () =>  {
         <div className='main'>
             <div className="title">
                 <h1>Restaurants</h1>  
+            </div>
+            <div className='buttons-wrapper'>
+                <Button  className='buttons' variant="contained" color="success" onClick={() => {navigate('/')}}>
+                    Return Home
+                </Button>
             </div>
             <div>
             <TableContainer component={Paper} className='table'>

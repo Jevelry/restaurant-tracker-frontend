@@ -89,11 +89,11 @@ const Info = () => {
 
 
 
-            <div className='button'>
-                <Button className='button' variant="contained" color="error" onClick={() => {navigate('/restaurants')}}>
+            <div className='buttons'>
+                <Button className='buttons' variant="contained" color="error" onClick={() => {navigate('/restaurants')}}>
                     Go Back
                 </Button>
-                <Button  className='button' variant="contained" color="success" onClick={() => {navigate('/')}}>
+                <Button  className='buttons' variant="contained" color="success" onClick={() => {navigate('/')}}>
                     Return Home
                 </Button>
             </div>
