@@ -53,6 +53,9 @@ const Form = ({setOpen}) =>  {
         <div className="main">
         <Typography variant="h6" align="center" margin="dense">
             <p className="title">Add New Restaurant</p>
+            <p className="descriptions">I haven't added form control so you can 
+            write whatever you want. Try to follow the format. If the restaurant's
+            in the CBD put "Sydney"</p>
           </Typography>
              <Paper className='main'>
                 <Box px={3} py={2}>

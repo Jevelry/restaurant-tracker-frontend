@@ -11,6 +11,10 @@
     display: flex;
     margin: 1em;
 }
+.descriptions {
+    color: white;
+    font-size: 80%;
+}
 .text {
     line-height: 5px;
     font-size: 15px;
