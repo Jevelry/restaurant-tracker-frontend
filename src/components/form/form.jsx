@@ -25,6 +25,8 @@ const Form = ({setOpen}) =>  {
     
     const onSubmit = data => {
         setOpen(true);
+        data.name = data.name.trim()
+        data.location = data.location.trim()
         const userObject = {
             name: data.name,
             location: data.location,
